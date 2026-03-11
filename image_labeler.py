@@ -50,8 +50,8 @@ def detect_labels(photo, bucket):
     return len(response['Labels'])
 
 def main():
-    photo = ''
-    bucket = 'bucket_name'
+    photo = '7417.jpg'
+    bucket = 'amzn-rekognition-bucket '
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
 
